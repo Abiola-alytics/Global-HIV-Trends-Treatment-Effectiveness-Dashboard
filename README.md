@@ -64,7 +64,7 @@ Survival_Rate = 1 - [Death_Rate]
 
 Deaths_per_1000_Infections = DIVIDE([Total_Deaths], [Total_New_Infections], 0) * 1000
 
-YoY_Growth (2019–2024 only) = DIVIDE([Total_New_Infections] - [New_Infections_PY], [New_Infections_PY])
+YoY_Growth (2019–2024 only) = DIVIDE([Total_New_Infections] - [New_Infections_Per_Year], [New_Infections_Per_Year])
 ```
 
 Full KPI list: New HIV Infections, HIV Deaths, Total PLWH, Survival Rate (%), Death Rate (%), ART Coverage, YoY Growth.
