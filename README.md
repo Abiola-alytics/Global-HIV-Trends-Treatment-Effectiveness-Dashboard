@@ -100,10 +100,23 @@ Full KPI list: New HIV Infections, HIV Deaths, Total PLWH, Survival Rate (%), De
 
 ## Tools Used
 
-- Power BI (data modeling, DAX, visualisation)
-- Power Query (ETL / data cleaning)
+- Power BI
+- Power Query
+
+- ## Skills Demonstrated
+
+- ETL
+- Data Cleaning
+- Data Transformation
+- Data Modelling
+- Star Schema Design
+- DAX
+- KPI Development
+- Dashboard Design
+- Data Storytelling
+- Business Intelligence
 
 ## Author
 
-Abiola Ayeni— Health Tech | Data Analyst | [GitHub](https://github.com/Abiola-alytics)
+Abiola Ayeni — Data Analyst | Health Tech | Power BI | SQL | Excel | Data Visualisation [GitHub](https://github.com/Abiola-alytics) [LinkedIn](www.linkedin.com/in/abiolaayeni)
 
