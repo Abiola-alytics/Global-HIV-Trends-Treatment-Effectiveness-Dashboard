@@ -44,7 +44,6 @@ Designed a clean star schema with 1 fact table and 3 dimension tables:
 All relationships verified as 1-to-many, single cross-filter direction, dimension → fact.
 
 ## Dashboard
-
 ![Dashboard Screenshot](dashboard_screenshot.png)
 
 ![Star Schema](star_schema.png)
@@ -68,8 +67,6 @@ YoY_Growth (2019–2024 only) = DIVIDE([Total_New_Infections] - [New_Infections_
 ```
 
 Full KPI list: New HIV Infections, HIV Deaths, Total PLWH, Survival Rate (%), Death Rate (%), ART Coverage, YoY Growth.
-
-## Dashboard
 
 
 **Layout:**
@@ -118,5 +115,5 @@ Full KPI list: New HIV Infections, HIV Deaths, Total PLWH, Survival Rate (%), De
 
 ## Author
 
-Abiola Ayeni — Data Analyst | Health Tech | Power BI | SQL | Excel | Data Visualisation [GitHub](https://github.com/Abiola-alytics) [LinkedIn](www.linkedin.com/in/abiolaayeni)
+Abiola Ayeni — Data Analyst | Health Tech | Power BI | SQL | Excel | Data Visualisation [GitHub](https://github.com/Abiola-alytics) [LinkedIn](https://www.linkedin.com/in/abiolaayeni)
 
