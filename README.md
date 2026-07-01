@@ -43,18 +43,24 @@ Designed a clean star schema with 1 fact table and 3 dimension tables:
 
 All relationships verified as 1-to-many, single cross-filter direction, dimension → fact.
 
+## Dashboard
 
+![Dashboard Screenshot](dashboard_screenshot.png)
+
+![Star Schema](star_schema.png)
+
+**Layout:**
 
 ## Key DAX Measures
 
 ```DAX
 Total_Deaths = CALCULATE(SUM(Fact_HIV[value]), Indicator_Dim[indicator] = "HIV deaths")
 
-Total_PLHIV = CALCULATE(SUM(Fact_HIV[value]), Indicator_Dim[indicator] = "People living with HIV")
+Total_PLWH= CALCULATE(SUM(Fact_HIV[value]), Indicator_Dim[indicator] = "People living with HIV")
 
 Death_Rate = DIVIDE([Total_Deaths], [Total_PLWH])
 
-Survival_Rate = 1 - [Deaths_Rate]
+Survival_Rate = 1 - [Death_Rate]
 
 Deaths_per_1000_Infections = DIVIDE([Total_Deaths], [Total_New_Infections], 0) * 1000
 
