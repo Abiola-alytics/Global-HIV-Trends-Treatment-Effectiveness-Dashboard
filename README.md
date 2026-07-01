@@ -43,7 +43,7 @@ Designed a clean star schema with 1 fact table and 3 dimension tables:
 
 All relationships verified as 1-to-many, single cross-filter direction, dimension → fact.
 
-*(Insert model diagram screenshot here)*
+
 
 ## Key DAX Measures
 
@@ -65,8 +65,6 @@ Full KPI list: New HIV Infections, HIV Deaths, Total PLWH, Survival Rate (%), De
 
 ## Dashboard
 
-![Dashboard Screenshot](dashboard_screenshot.png)
-*(Replace this with your actual screenshot file once uploaded to the repo)*
 
 **Layout:**
 - KPI strip: headline totals and rates
